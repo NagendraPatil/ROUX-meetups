@@ -1,0 +1,29 @@
+{
+  "name": "node_website",
+  "version": "1.0.0",
+  "description": "A website built for rehersing and re-learning nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "nodemon": "nodemon server.js"
+  },
+  "author": "NagendraPatil",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cookie-session": "^2.1.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "http-errors": "^2.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "eslint": "^9.20.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "globals": "^15.14.0",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.0"
+  }
+}
